@@ -1,5 +1,5 @@
 {
-    "name": "karen/avataxclient",
+    "name": "karen_he/avataxclient",
     "description": "Client library for Avalara's AvaTax suite of business tax calculation and processing services. Uses the REST v2 API. Updated to use Guzzle 7 for Laravel compatibility.",
     "keywords": [
         "tax",
