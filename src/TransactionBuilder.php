@@ -652,5 +652,40 @@ class TransactionBuilder
 
         return $this;
     }    
+    public function withDescription($description)
+    {
+        if ($description){
+            $this->_model['description'] = $description;
+        }
+
+        return $this;
+    }
+    
+    public function withSalespersonCode($salespersonCode)
+    {
+        if ($salespersonCode){
+            $this->_model['salespersonCode'] = $salespersonCode;
+        }
+
+        return $this;
+    }
+    
+    public function withAdjustmentReason($adjustmentReason)
+    {
+        if ($adjustmentReason){
+            $this->_model['adjustmentReason'] = $adjustmentReason;
+        }
+        
+        return $this;
+    }
+    
+    public function withAdjustmentDescription($adjustmentDescription)
+    {
+        if ($adjustmentDescription){
+            $this->_model['adjustmentDescription'] = $adjustmentDescription;
+        }
+        
+        return $this;
+    }
 }
 ?>
